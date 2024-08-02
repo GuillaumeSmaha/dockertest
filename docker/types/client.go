@@ -1,16 +1,16 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package types // import "github.com/ory/dockertest/v3/docker/types"
+package types // import "github.com/GuillaumeSmaha/dockertest/v3/docker/types"
 
 import (
 	"bufio"
 	"io"
 	"net"
 
+	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/container"
+	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/filters"
 	units "github.com/docker/go-units"
-	"github.com/ory/dockertest/v3/docker/types/container"
-	"github.com/ory/dockertest/v3/docker/types/filters"
 )
 
 // CheckpointCreateOptions holds parameters to create a checkpoint from a container

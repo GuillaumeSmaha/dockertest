@@ -1,7 +1,7 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package strslice // import "github.com/ory/dockertest/v3/docker/types/strslice"
+package strslice // import "github.com/GuillaumeSmaha/dockertest/v3/docker/types/strslice"
 
 import (
 	"encoding/json"

@@ -1,7 +1,7 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package archive // import "github.com/ory/dockertest/v3/docker/pkg/archive"
+package archive // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/archive"
 
 import (
 	"bytes"
@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/ory/dockertest/v3/docker/pkg/system"
+	"github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/system"
 	"golang.org/x/sys/unix"
 )
 

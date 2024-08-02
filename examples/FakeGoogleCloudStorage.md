@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"cloud.google.com/go/storage"
-	"github.com/ory/dockertest/v3"
-	"github.com/ory/dockertest/v3/docker"
+	"github.com/GuillaumeSmaha/dockertest/v3"
+	"github.com/GuillaumeSmaha/dockertest/v3/docker"
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 )

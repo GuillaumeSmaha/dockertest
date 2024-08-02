@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
+	dc "github.com/GuillaumeSmaha/dockertest/v3/docker"
+	options "github.com/GuillaumeSmaha/dockertest/v3/docker/opts"
 	"github.com/cenkalti/backoff/v4"
-	dc "github.com/ory/dockertest/v3/docker"
-	options "github.com/ory/dockertest/v3/docker/opts"
 )
 
 var (

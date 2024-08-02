@@ -14,8 +14,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/ory/dockertest/v3"
-	"github.com/ory/dockertest/v3/docker"
+	"github.com/GuillaumeSmaha/dockertest/v3"
+	"github.com/GuillaumeSmaha/dockertest/v3/docker"
 	log "github.com/sirupsen/logrus"
 )
 

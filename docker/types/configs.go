@@ -1,11 +1,11 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package types // import "github.com/ory/dockertest/v3/docker/types"
+package types // import "github.com/GuillaumeSmaha/dockertest/v3/docker/types"
 
 import (
-	"github.com/ory/dockertest/v3/docker/types/container"
-	"github.com/ory/dockertest/v3/docker/types/network"
+	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/container"
+	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/network"
 )
 
 // configs holds structs used for internal communication between the

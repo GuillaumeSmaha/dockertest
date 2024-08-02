@@ -1,7 +1,7 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package types // import "github.com/ory/dockertest/v3/docker/types"
+package types // import "github.com/GuillaumeSmaha/dockertest/v3/docker/types"
 
 // Seccomp represents the config for a seccomp profile for syscall restriction.
 type Seccomp struct {

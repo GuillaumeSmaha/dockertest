@@ -1,12 +1,12 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package homedir // import "github.com/ory/dockertest/v3/docker/pkg/homedir"
+package homedir // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/homedir"
 
 import (
 	"os"
 
-	"github.com/ory/dockertest/v3/docker/pkg/idtools"
+	"github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/idtools"
 )
 
 // GetStatic returns the home directory for the current user without calling

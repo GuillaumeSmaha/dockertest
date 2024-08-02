@@ -1,16 +1,16 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package container // import "github.com/ory/dockertest/v3/docker/types/container"
+package container // import "github.com/GuillaumeSmaha/dockertest/v3/docker/types/container"
 
 import (
 	"strings"
 
+	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/blkiodev"
+	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/mount"
+	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/strslice"
 	"github.com/docker/go-connections/nat"
 	"github.com/docker/go-units"
-	"github.com/ory/dockertest/v3/docker/types/blkiodev"
-	"github.com/ory/dockertest/v3/docker/types/mount"
-	"github.com/ory/dockertest/v3/docker/types/strslice"
 )
 
 // Isolation represents the isolation technology of a container. The supported

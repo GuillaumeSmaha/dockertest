@@ -9,8 +9,8 @@ import (
 
 	"github.com/confluentinc/confluent-kafka-go/kafka"
 	"github.com/go-zookeeper/zk"
-	"github.com/ory/dockertest/v3"
-	"github.com/ory/dockertest/v3/docker"
+	"github.com/GuillaumeSmaha/dockertest/v3"
+	"github.com/GuillaumeSmaha/dockertest/v3/docker"
 )
 
 func main() {
