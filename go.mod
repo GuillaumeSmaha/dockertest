@@ -1,4 +1,4 @@
-module github.com/GuillaumeSmaha/dockertest/v3
+module github.com/GuillaumeSmaha/dockertest
 
 go 1.22
 

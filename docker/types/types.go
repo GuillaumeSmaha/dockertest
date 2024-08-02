@@ -1,7 +1,7 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package types // import "github.com/GuillaumeSmaha/dockertest/v3/docker/types"
+package types // import "github.com/GuillaumeSmaha/dockertest/docker/types"
 
 import (
 	"errors"
@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/container"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/filters"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/mount"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/network"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/registry"
+	"github.com/GuillaumeSmaha/dockertest/docker/types/container"
+	"github.com/GuillaumeSmaha/dockertest/docker/types/filters"
+	"github.com/GuillaumeSmaha/dockertest/docker/types/mount"
+	"github.com/GuillaumeSmaha/dockertest/docker/types/network"
+	"github.com/GuillaumeSmaha/dockertest/docker/types/registry"
 	"github.com/docker/go-connections/nat"
 )
 

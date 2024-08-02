@@ -1,7 +1,7 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package network // import "github.com/GuillaumeSmaha/dockertest/v3/docker/types/network"
+package network // import "github.com/GuillaumeSmaha/dockertest/docker/types/network"
 
 // Address represents an IP address
 type Address struct {

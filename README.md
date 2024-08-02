@@ -42,7 +42,7 @@ releases.
 To install dockertest, run
 
 ```
-go get -u github.com/GuillaumeSmaha/dockertest/v3
+go get -u github.com/GuillaumeSmaha/dockertest
 ```
 
 ### Using Dockertest
@@ -58,7 +58,7 @@ import (
 	"testing"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/GuillaumeSmaha/dockertest/v3"
+	"github.com/GuillaumeSmaha/dockertest"
 )
 
 var db *sql.DB

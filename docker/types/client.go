@@ -1,15 +1,15 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package types // import "github.com/GuillaumeSmaha/dockertest/v3/docker/types"
+package types // import "github.com/GuillaumeSmaha/dockertest/docker/types"
 
 import (
 	"bufio"
 	"io"
 	"net"
 
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/container"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/filters"
+	"github.com/GuillaumeSmaha/dockertest/docker/types/container"
+	"github.com/GuillaumeSmaha/dockertest/docker/types/filters"
 	units "github.com/docker/go-units"
 )
 

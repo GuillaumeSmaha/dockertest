@@ -15,8 +15,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/archive"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/fileutils"
+	"github.com/GuillaumeSmaha/dockertest/docker/pkg/archive"
+	"github.com/GuillaumeSmaha/dockertest/docker/pkg/fileutils"
 )
 
 func createTarStream(srcPath, dockerfilePath string) (io.ReadCloser, error) {

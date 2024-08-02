@@ -1,7 +1,7 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package archive // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/archive"
+package archive // import "github.com/GuillaumeSmaha/dockertest/docker/pkg/archive"
 
 import (
 	"archive/tar"

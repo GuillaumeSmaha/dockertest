@@ -4,7 +4,7 @@
 //go:build !linux
 // +build !linux
 
-package archive // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/archive"
+package archive // import "github.com/GuillaumeSmaha/dockertest/docker/pkg/archive"
 
 import (
 	"syscall"

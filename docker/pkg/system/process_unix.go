@@ -4,7 +4,7 @@
 //go:build linux || freebsd || darwin
 // +build linux freebsd darwin
 
-package system // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/system"
+package system // import "github.com/GuillaumeSmaha/dockertest/docker/pkg/system"
 
 import (
 	"syscall"

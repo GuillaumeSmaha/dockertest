@@ -4,7 +4,7 @@
 //go:build (!windows && !linux && !freebsd) || (freebsd && !cgo)
 // +build !windows,!linux,!freebsd freebsd,!cgo
 
-package mount // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/mount"
+package mount // import "github.com/GuillaumeSmaha/dockertest/docker/pkg/mount"
 
 import (
 	"fmt"

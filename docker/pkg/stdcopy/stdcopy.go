@@ -1,7 +1,7 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package stdcopy // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/stdcopy"
+package stdcopy // import "github.com/GuillaumeSmaha/dockertest/docker/pkg/stdcopy"
 
 import (
 	"bytes"

@@ -4,7 +4,7 @@
 //go:build !windows
 // +build !windows
 
-package idtools // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/idtools"
+package idtools // import "github.com/GuillaumeSmaha/dockertest/docker/pkg/idtools"
 
 import (
 	"bytes"
@@ -16,7 +16,7 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/system"
+	"github.com/GuillaumeSmaha/dockertest/docker/pkg/system"
 	"github.com/opencontainers/runc/libcontainer/user"
 )
 

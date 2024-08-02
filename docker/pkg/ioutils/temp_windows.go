@@ -1,12 +1,12 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package ioutils // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/ioutils"
+package ioutils // import "github.com/GuillaumeSmaha/dockertest/docker/pkg/ioutils"
 
 import (
 	"os"
 
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/longpath"
+	"github.com/GuillaumeSmaha/dockertest/docker/pkg/longpath"
 )
 
 // TempDir is the equivalent of os.MkdirTemp, except that the result is in Windows longpath format.

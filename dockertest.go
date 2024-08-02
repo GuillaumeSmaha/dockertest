@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	dc "github.com/GuillaumeSmaha/dockertest/v3/docker"
-	options "github.com/GuillaumeSmaha/dockertest/v3/docker/opts"
+	dc "github.com/GuillaumeSmaha/dockertest/docker"
+	options "github.com/GuillaumeSmaha/dockertest/docker/opts"
 	"github.com/cenkalti/backoff/v4"
 )
 

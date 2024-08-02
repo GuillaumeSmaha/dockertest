@@ -1,7 +1,7 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package homedir // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/homedir"
+package homedir // import "github.com/GuillaumeSmaha/dockertest/docker/pkg/homedir"
 
 import (
 	"os"

@@ -2,12 +2,12 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // Package v1p19 provides specific API types for the API version 1, patch 19.
-package v1p19 // import "github.com/GuillaumeSmaha/dockertest/v3/docker/types/versions/v1p19"
+package v1p19 // import "github.com/GuillaumeSmaha/dockertest/docker/types/versions/v1p19"
 
 import (
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/container"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types/versions/v1p20"
+	"github.com/GuillaumeSmaha/dockertest/docker/types"
+	"github.com/GuillaumeSmaha/dockertest/docker/types/container"
+	"github.com/GuillaumeSmaha/dockertest/docker/types/versions/v1p20"
 	"github.com/docker/go-connections/nat"
 )
 

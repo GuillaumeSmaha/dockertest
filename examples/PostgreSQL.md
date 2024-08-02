@@ -9,8 +9,8 @@ import (
 	"time"
 
 	_ "github.com/lib/pq"
-	"github.com/GuillaumeSmaha/dockertest/v3"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker"
+	"github.com/GuillaumeSmaha/dockertest"
+	"github.com/GuillaumeSmaha/dockertest/docker"
 	log "github.com/sirupsen/logrus"
 )
 

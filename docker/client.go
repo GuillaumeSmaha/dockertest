@@ -34,10 +34,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/opts"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/homedir"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/jsonmessage"
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/stdcopy"
+	"github.com/GuillaumeSmaha/dockertest/docker/opts"
+	"github.com/GuillaumeSmaha/dockertest/docker/pkg/homedir"
+	"github.com/GuillaumeSmaha/dockertest/docker/pkg/jsonmessage"
+	"github.com/GuillaumeSmaha/dockertest/docker/pkg/stdcopy"
 )
 
 const (

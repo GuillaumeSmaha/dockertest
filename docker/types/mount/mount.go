@@ -1,7 +1,7 @@
 // Copyright © 2024 Ory Corp
 // SPDX-License-Identifier: Apache-2.0
 
-package mount // import "github.com/GuillaumeSmaha/dockertest/v3/docker/types/mount"
+package mount // import "github.com/GuillaumeSmaha/dockertest/docker/types/mount"
 
 import (
 	"os"

@@ -4,7 +4,7 @@
 //go:build !windows
 // +build !windows
 
-package ioutils // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/ioutils"
+package ioutils // import "github.com/GuillaumeSmaha/dockertest/docker/pkg/ioutils"
 
 import "os"
 

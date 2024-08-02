@@ -4,7 +4,7 @@
 //go:build !windows
 // +build !windows
 
-package homedir // import "github.com/GuillaumeSmaha/dockertest/v3/docker/pkg/homedir"
+package homedir // import "github.com/GuillaumeSmaha/dockertest/docker/pkg/homedir"
 
 import (
 	"os"

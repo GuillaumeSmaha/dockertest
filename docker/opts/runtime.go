@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/GuillaumeSmaha/dockertest/v3/docker/types"
+	"github.com/GuillaumeSmaha/dockertest/docker/types"
 )
 
 // RuntimeOpt defines a map of Runtimes
